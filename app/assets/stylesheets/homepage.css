@@ -1,0 +1,79 @@
+body {
+  background-image: url('denmark.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin-top: 8%;
+}
+
+section {
+  font-family: 'BenchNine', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.logo_title_top {
+  font-size: 7em;
+  font-family: 'BenchNine', sans-serif;
+  /*color: white;*/
+}
+
+.logo_title {
+  font-size: 5em;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.gathering {
+  font-family: 'Satisfy', cursive;
+}
+
+.medium {
+  font-size: 1.5em;
+}
+
+.large {
+  font-size: 3em;
+}
+
+.block {
+  display: inline-block;
+}
+
+.top-section {
+  height: 700px;
+  padding: 15%;
+}
+
+.second {
+  width: 100%;
+  background-color: white;
+  padding: 8%;
+}
+
+.line-right {
+  height: 600px;
+  border-right: solid white;
+}
+
+.fixed-title {
+  z-index: -1;
+  position: fixed;
+}
+
+.regular {
+  font-family: 'BenchNine', sans-serif;
+}
+
+.script {
+  font-family: 'Satisfy', cursive;
+}

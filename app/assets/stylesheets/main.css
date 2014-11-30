@@ -1,0 +1,16 @@
+.main-page {
+  margin-top: 7%;
+  min-height: 700px;
+}
+
+.main-content {
+  margin: 5px;
+  background-color: white;
+  min-height: 700px;
+}
+
+.main-right-sidebar {
+  margin: 5px;
+  background-color: white;
+  min-height: 700px;
+}

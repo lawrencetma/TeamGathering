@@ -1,4 +1,5 @@
-$(document).ready(function() {
+var scrollClick;
+scrollClick = function() {
   $('a[href^="#"]').on('click', function(event) {
       var target = $( $(this).attr('href') );
       if( target.length ) {
@@ -8,4 +9,7 @@ $(document).ready(function() {
           }, 1000);
       }
   });
-});
+};
+
+$(document).ready(scrollClick);
+$(document).on('page:load', scrollClick);

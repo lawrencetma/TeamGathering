@@ -55,9 +55,9 @@ section {
 }
 
 .second {
-  width: 100%;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.9);
   padding: 8%;
+  box-shadow: 0 10px 2px -2px;
 }
 
 .line-right {
@@ -76,4 +76,22 @@ section {
 
 .script {
   font-family: 'Satisfy', cursive;
+}
+
+.footer {
+  width: 100%;
+  background-color: #545454;
+  min-height: 200px;
+  color: #E5E5E5;
+  font-size: 1.25em;
+}
+
+.footer-heading {
+  color: #8C8C8C;
+}
+
+.line-break {
+  height: 25px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #8C8C8C;
 }

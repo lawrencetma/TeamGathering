@@ -26,6 +26,9 @@
 
         <% if session[:user_id] != nil %>
         <li>
+
+        </li>
+        <li>
           <%= link_to "Log Out", signout_path, method: :delete %>
         </li>
         <% end %>
